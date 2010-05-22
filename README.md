@@ -10,7 +10,14 @@
 
 A **tweet stream** has the following methods, members, events, and usage.
 
-<script src="http://gist.github.com/409575.js"></script>
+    var tweetstream = require('tweetstream'),
+        sys = require('sys');
+
+    var stream = tweetstream.createTweetStream({  track:["twitter"]
+                                            , username:"twitterusername"
+                                            , password:"mypassword" 
+                                           });
+    stream.addListener("tweet", function (tweet) {sys.puts(sys.inspect(tweet))});
 
 ### tweetstream.createTweetStream(options)
 
