@@ -1,0 +1,16 @@
+{ "name" : "tweetstream"
+, "description" : "Stream API for twitter data."
+, "tags" : ["twitter", "stream"]
+, "version" : "0.1"
+, "author" : "Mikeal Rogers <mikeal.rogers@gmail.com>"
+, "directories" :
+  { "lib" : "lib" }
+, "repository" :
+  { "type" : "git"
+  , "url" : "http://github.com/mikeal/tweetstream.git"
+  }
+, "bugs" :
+  { "web" : "http://github.com/mikeal/tweetstream/issues" }
+, "engines" : ["node >=0.1.90"]
+, "main" : "./lib/main"
+}
