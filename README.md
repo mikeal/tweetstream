@@ -13,15 +13,14 @@ A **tweet stream** has the following methods, members, events, and usage.
     var tweetstream = require('tweetstream'),
         sys = require('sys');
 
-    var stream = tweetstream.createTweetStream({  track:["twitter"]
-                                            , username:"twitterusername"
-                                            , password:"mypassword" 
-                                           });
+    var stream = tweetstream.createTweetStream({ username:"twitterusername"
+                                               , password:"mypassword" 
+                                               });
     stream.addListener("tweet", function (tweet) {sys.puts(sys.inspect(tweet))});
 
 ### tweetstream.createTweetStream(options)
 
-The first argument is an options object. The username and password options are required, all others are optional but you'll need at least the track, follow, track or locations.
+The first argument is an options object. The username and password options are required.
 
 * `'username'` - A twitter username.
 * `'password'` - The password for the provided twitter username.
