@@ -28,9 +28,9 @@ The first argument is an options object. The username and password options are r
 Stream type options. The default stream type is the `'chirp` stream unless filter options are passed.
 
 * `'chirp'` - boolean. default is true.
-* '`firehose`' - boolean. Full twitter firehose, requires an account with escalated privileges.
-* '`links`' - boolean. All tweets that contain a URI in the text, requires an account with escalated privileges.
-* '`retweet`' - boolean. All tweets that are retweets, requires an account with escalated privileges.
+* `'firehose'` - boolean. Full twitter firehose, requires an account with escalated privileges.
+* `'links'` - boolean. All tweets that contain a URI in the text, requires an account with escalated privileges.
+* `'retweet'` - boolean. All tweets that are retweets, requires an account with escalated privileges.
 
 Filter options. Using any of the following options will default to the filter stream.
 
