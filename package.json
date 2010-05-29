@@ -14,5 +14,5 @@
 , "engines" : ["node >=0.1.90"]
 , "main" : "./lib/main"
 , "dependencies": 
-  { "request" : ">=0.9.1", }
+  { "request" : ">=0.9.1" }
 }
