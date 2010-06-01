@@ -1,4 +1,4 @@
-var tweetstream = require('../lib/main'),
+var tweetstream = require('tweetstream'),
     fs = require('fs'),
     path = require('path'),
     sys = require('sys');
