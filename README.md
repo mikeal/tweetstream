@@ -11,12 +11,12 @@
 A **tweet stream** has the following methods, members, events, and usage.
 
     var tweetstream = require('tweetstream'),
-        sys = require('sys');
+        util = require('util');
 
     var stream = tweetstream.createTweetStream({ username:"twitterusername"
                                                , password:"mypassword" 
                                                });
-    stream.addListener("tweet", function (tweet) {sys.puts(sys.inspect(tweet))});
+    stream.addListener("tweet", function (tweet) {util.puts(util.inspect(tweet))});
 
 ### tweetstream.createTweetStream(options)
 
