@@ -1,5 +1,7 @@
 # TweetStream -- Stream API for twitter data.
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mikeal/tweetstream.svg)](https://greenkeeper.io/)
+
 ## Install
 
 <pre>
